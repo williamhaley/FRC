@@ -1,0 +1,4 @@
+from network_tables.network_tables import run_network_tables_updater
+
+def network_tables_worker(network_tables_server_address=None, vision_telemetry_queue=None):
+  run_network_tables_updater(network_tables_server_address=network_tables_server_address, vision_telemetry_queue=vision_telemetry_queue)
